@@ -203,8 +203,7 @@ a.btn2:hover {
 }
 /* Click & collect */
 .clickcollect{
-    background: #fff;
-    border-radius: 30px;
+    background: #a31f9e !important;
 }
 /*reservation*/
 .search-sec{padding:2rem}
@@ -363,6 +362,32 @@ body.side-menu-visible #side-menu{transform:translateX(-300px);overflow:hidden;}
 #side-menu .contact a:focus, #side-menu .contact .fa:focus{color: #28ab13 !important;}
 
 /**/
+
+.logo{
+    background-image: url("../img/logo/logo-arcadie.png") !important; 
+    background-repeat: no-repeat;
+    height: 150px;
+    width:400px;
+}
+@media all and (max-width: 1500px)
+{
+    .logo{
+
+        background-image: url("../img/logo/logo.png") !important ; 
+        background-repeat: no-repeat !important;
+    }
+    
+}
+@media (max-width: 1500px){
+    .clickcollect{
+        margin-left: 280px !important;
+    }
+}
+@media all and (max-width: 800px){
+    .clickcollect{
+        margin-left: 0 !important;
+    }
+}
 button {
     display: inline-block;
     margin: 5px 5px 0 0;
